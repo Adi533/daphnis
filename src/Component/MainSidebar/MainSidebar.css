@@ -1,0 +1,45 @@
+.Main-part{
+    background-color: rgb(57, 0, 110);
+    height: 100vh;
+    width: 60px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+}
+.Second-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.Third-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Fourth-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.icon{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    margin-top: 25px;
+}
+.home{
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(120, 60, 176) ;
+}
+hr{
+    width: 50%;
+}

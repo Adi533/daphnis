@@ -1,0 +1,16 @@
+.Mainc{
+    
+    width: 56rem;
+    box-shadow: 5px 1px 5px -2px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+@media screen and (max-width: 1220px){
+    .Mainc{
+        flex-direction: column;
+        margin-left: 50px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
